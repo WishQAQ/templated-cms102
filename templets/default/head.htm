@@ -1,0 +1,35 @@
+<div class="header">
+  <h1 class="logo"><a href="/"><img src="/webimages/logo.png" alt="" width="128" height="82"></a><span>网站建设第一品牌<br>
+    网络营销整合专家</span></h1>
+  <div class="Searchphone">
+    <ul>
+      <li><a href="javascript:;" class="TSearch"></a>
+        <div class="Searchbox">
+          <form name="formsearch" action="/plus/search.php" method="post">
+            <input type="text" name="q" class="wenben">
+            <input type="submit" name="submit" value=" " class="anniu">
+          </form>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="nav">
+    <dl>
+      <em class="index_callme"><a href="/a/lianxi/">联系我们</a></em><em><a href="/a/liuyan/">在线留言</a></em><span class="fuwu">服务热线：020-00000000</span><span class="zhuanxian">大客户专线：400-000-0000</span>
+    </dl>
+    <ul class="clearfix">
+      <li class="First"><span><a href="/">首页</a></span></li>
+      {dede:channelartlist typeid='top' row='6'}
+	  <li><span><a href="{dede:field name='typeurl'/}">{dede:field name='typename' /}</a></span><b></b>
+        <div class="downmenu">
+          <p> 
+		  {dede:channel type='son' noself='yes'}
+		  <a href="[field:typelink/]">[field:typename/]</a>
+		  {/dede:channel}
+		  </p>
+        </div>
+      </li>
+	  {/dede:channelartlist}
+    </ul>
+  </div>
+</div>

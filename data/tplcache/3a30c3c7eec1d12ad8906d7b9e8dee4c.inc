@@ -1,0 +1,1 @@
+<dd> <a href="javascript:;" target="_blank"><img title="[field:title /]" alt="[field:title /]" src="[field:picname/]" /> </a> </dd>

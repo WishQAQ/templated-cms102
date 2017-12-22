@@ -1,0 +1,1 @@
+<li><img src="[field:imgsrc/]" width="255" height="160" alt="[field:text/]" /></li>

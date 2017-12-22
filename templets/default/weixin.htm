@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<link href="/css/global.css" rel="stylesheet" type="text/css">
+<link href="/css/layout.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+<!--[if IE 6]>
+<script src="/js/iepng.js" type="text/javascript"></script>
+<script type="text/javascript">
+   EvPNG.fix('div,ul,li,img,dl,dt,dd,span,p,input,textarea,h1,h2,h3,h4,h5,h6,em,i,ol,a,label,a.cur,a:hover'); 
+</script>
+<![endif]-->
+<!--[if IE 7]>
+<link href="/css/sevenlayout.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<!--[if IE 8]>
+<link href="/css/sevenlayout.css" rel="stylesheet" type="text/css">
+<![endif]-->
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="neiyebanner"> <img src="/images/index_242.jpg" width="1900" height="489"> </div>
+<div class="webbg">
+  <div class="webbox">
+    <div class="weixinSolutions">
+      <ul class="clearfix">
+        {dede:type typeid='6'}
+		<li><a href="[field:typelink /]"><img src="/images/index_239.jpg">
+          <h3>[field:typename /]</h3>
+          <p class="wxfont14"><span>+</span>了解更多＞</p>
+          </a></li>
+		  {/dede:type}
+		  {dede:type typeid='7'}
+        <li><a href="[field:typelink /]"><img src="/images/index_240.jpg">
+          <h3>[field:typename /]</h3>
+          <p class="wxfont14"><span>+</span>了解更多＞</p>
+          </a></li>
+		  {/dede:type}
+		  {dede:type typeid='8'}
+        <li class="cur"><a href="[field:typelink /]"><img src="/images/index_241.jpg">
+          <h3>[field:typename /]</h3>
+          <p class="wxfont14"><span>+</span>了解更多＞</p>
+          </a></li>
+		  {/dede:type}
+      </ul>
+      <dl>
+        <img src="/images/index_243.jpg">
+        <dd>
+          {dede:type typeid='9'}
+		  <h3><a href="[field:typelink /]">[field:typename /]</a></h3>
+          <p>初创品牌：帮助初创品牌落地生根，迅速成长。</p>
+          <p>成长品牌：帮助成长品牌实现更多商业价值，成长为龙头企业。</p>
+          <p>成熟品牌：帮助成熟品牌突破发展瓶颈，走向市场新格局。</p>
+          <span><a href="[field:typelink /]"><em>+</em>了解更多＞</a></span>
+		  {/dede:type}
+		</dd>
+      </dl>
+    </div>
+    <div class="weixinRelated">
+      <h3><em>{dede:type typeid='3'}<a href="[field:typelink /]">查看更多></a>{/dede:type}</em>相关案例</h3>
+      <ul class="clearfix">
+        {dede:arclist row="4" typeid="3" titlelen="20" orderby="pubdate"  infolen="150"}
+		<li><a href="[field:arcurl /]"><img src="[field:picname/]"></a>
+          <h4><a href="[field:arcurl /]">[field:title /]</a></h4>
+          <p>[field:infos/]…</p>
+        </li>
+		{/dede:arclist}
+      </ul>
+    </div>
+  </div>
+</div>
+{dede:include filename="tanchuang.htm"/}
+</body>
+<script>    $(".nav li:eq(3)").addClass("cur");
+     </script>
+</html>

@@ -1,0 +1,30 @@
+<?php
+$typeArr[1] = '成功案例';
+$typeArr[2] = '网站建设';
+$typeArr[3] = '手机网站';
+$typeArr[4] = '其他';
+$typeArr[5] = '微信营销';
+$typeArr[6] = '微商城';
+$typeArr[7] = '微官网';
+$typeArr[8] = '微活动';
+$typeArr[10] = '电商网站建设';
+$typeArr[11] = '制定化电子商务';
+$typeArr[12] = '产品商城网站';
+$typeArr[13] = '移动手机电商网站';
+$typeArr[14] = '微信会员电商';
+$typeArr[15] = '关于我们';
+$typeArr[16] = '企业介绍';
+$typeArr[17] = '发展历程';
+$typeArr[18] = '我们实力';
+$typeArr[19] = '核心理念';
+$typeArr[20] = '新闻动态';
+$typeArr[21] = '人才招聘';
+$typeArr[22] = '联系我们';
+$typeArr[23] = '行业新闻';
+$typeArr[24] = '公司新闻';
+$typeArr[25] = '签约动态';
+$typeArr[26] = '联系方式';
+$typeArr[27] = '在线留言';
+$typeArr[28] = '客户评价';
+$typeArr[29] = '我们的客户';
+?>

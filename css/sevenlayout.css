@@ -1,0 +1,361 @@
+/*首页*/
+.body1024 .logo{ padding-left:10px;}
+.body1024 .nav{ width:638px;}
+.body1024 .nav ul li.First span{ padding-left:0px;}
+.body1024 .nav ul li span{padding: 0px 13px 0px;}
+.body1024 .Ourcustomers dl{ margin-left:-504px;}
+.body1024 .Ourcustomers dl dd{ margin-left:10px;}
+.body1024 .index_btn ul li{ width:247px;background: #031e34;}
+.body1024 .index_btn{ margin:0px 10px; width:98%; }
+.body1024 .index_btnbox{ width:245px; z-index:99; left:1px;}
+.body1024 .index_btn ul li span{ width:100%;}
+.body1024 .index_btn ul li span a{ border-right:solid 1px #fff; width:246px;}
+.body1024 .index_btnbox img{ width:100%;}
+.body1024 .index_btnbox p a{ width:118px; line-height:15px; padding-bottom:10px;}
+.body1024 .index_btnbox p{padding: 20px 0px 0px 6px;}
+.body1024 .index_btn ul li span a.cur{ width:247px;}
+.body1024 .CoreBusinesslist ul li{ width:245px;}
+.body1024 .CoreBusinesslist{ width:990px;}
+.body1024 .CoreBusinessbox{ width:100%;}
+.body1024 .CoreBusinesslist ul{ width:100%;}
+.body1024 .CoreBusinesslist ul li p a{ padding:0px 3px;}
+.body1024 .CoreBusinesslist ul li img{ width:100%;}
+.body1024 .zhongbiaolist ul li{ width:310px; overflow:hidden; margin-right:29px;}
+.body1024 .zhongbiaolistimg{ width:100%;}
+.body1024 .zhongbiaolistimg img{ width:310px; margin-left:-155px;}
+.body1024 .zhongbiaolist{ width:990px;}
+.body1024 .Caselistli{ width:310px; margin-right:29px;}
+.body1024 .Caselist{ width:990px;}
+.body1024 .specialefficacy { overflow:hidden;}
+.body1024 .specialefficacy ul{ margin-left:10px;}
+.body1024 .specialefficacy ul li{ width:164px; margin-right:45px;}
+.body1024 .specialefficacy ul li p{ height:170px; margin-left:0px; width:100%;background: url(../webimages/cr_img5.png) no-repeat; font-size:111px; line-height:170px;}
+.body1024 .specialefficacy ul li.cur{ margin-left:0px; margin-right:0px;}
+.body1024 .specialefficacy ul li.cur p{background: url(../webimages/cr_img6.png) no-repeat; width:344px; }
+.body1024 .Line:after{ margin-top:-10px;}
+.body1024 .fanganclass{ width:990px;}
+.body1024 .fanganpingjialist ul li{ width:990px;}
+.body1024 .pingjialist{ width:990px;}
+.body1024 .fanganlist{ width:990px;}
+.body1024 .fanganpingjialist{ width:990px; height:auto;}
+.body1024 .fanganlist dl{ height:343px; overflow:hidden;}
+.body1024 .fanganlist dl dd span{ width:272px;}
+.body1024 .fanganlist dl dd{ width:272px; margin-right:85px;}
+.body1024 .fanganlist dl dd img{ width:100%; margin-left:-136px;}
+.body1024 .pingjialist dl dd{ width:310px; margin-right:26px;}
+.body1024 .pingjialist dl dd img{ width:100%;}
+.body1024 .Client h3{ width:990px;}
+.body1024 .Clientlist ul li dl dd{ width:243px; height:116px;}
+.body1024 .Clientlist{ width:975px;}
+.body1024 .Clientlist ul li{ width:990px;}
+.body1024 .Clientlist ul li dl dd img{ width:100%; height:116px;}
+.body1024 .newsclass{ width:990px;}
+.body1024 .newslistbox{ width:100%;}
+.body1024 .newslis{ width:100%;}
+.body1024 .newslis dl{ width:455px;}
+.body1024 .newslis dl dd{ width:325px;}
+.body1024 .newslis dl dt{ margin-left:10px;}
+.body1024 .foot{ width:100%;}
+.body1024 .footlogo p{ width:100%;}
+.body1024 .footlogo p img{ margin-left:10px;}
+.body1024 .foot{ overflow:hidden;}
+.body1024 .foot ul{ width:1100px;padding: 30px 0px 20px 0px; height:auto;}
+.body1024 .foot ul li.footyw{ margin-left:10px; width:284px;}
+.body1024 .foot ul li.footyw p{ width:100%;}
+.body1024 .foot ul li.footyw p a,.foot ul li.footys p a{ font-size:13px;}
+.body1024 .foot ul li.footys{ width:324px; padding-left:20px;}
+.body1024 .foot ul li.footyw p span{ width:142px;}
+.body1024 .foot ul li.footabout{ width:316px;}
+.body1024 .foot ul li.footys p span{ width:156px;}
+.body1024 .foot dl dd{ width:475px; margin-left:10px;}
+.body1024 .foot dl dt{ width:470px; margin-right:10px;}
+.body1024 .Links{ height:auto; width:990px;border-top: solid 1px #333; margin-top:25px; padding-top:10px;}
+.body1024 .Links a{ display:inline-block;}
+.body1024 .footbg{background: url(../webimages/cr_img7.jpg) repeat-x; height:auto;}
+.body1024 .footer { width:990px; padding-bottom:15px;border-top: solid 1px #333; margin-top:10px; padding-top:10px;}
+.body1024 .Ourcustomers dl{ width:100%;}
+.body1024 .WeClient{ margin-left:-503px; width:100%;}
+.body1024 .WeClient ul{ margin-left:10px;}
+.body1024 .WeClient ul li{ width:197px;}
+.body1024 .WeClient ul li img{ width:100%;}
+.body1024 .E-commercelist ul,.E-commercelist ul{ width:100%; margin:0 auto;}
+.body1024 .E-commercelist ul li,.E-commercelist ul li{ width:245px;}
+.body1024 .Searchphone ul li{ width:24px; height:24px;}
+.body1024 .Searchphone ul li a.TSearch{background: url(../webimages/cr_img8.gif) repeat-x 0px 0px; height:24px; width:24px; }
+.body1024 .Searchphone ul li a.TSearch:hover{background: url(../webimages/cr_img8.gif) repeat-x 0px -26px; }
+.body1024 .nav dl em{ margin-right:19px;}
+.body1024 .nav dl em.index_callme{ margin-right:23px;}
+.body1024 .Searchphone{ height:24px; width:24px; position:absolute; top:-12px; right:-35px; z-index:99999; cursor:pointer;}
+.body1024 .nav dl span{ padding-right:10px;}
+.body1024 .nav ul li{ margin-right:8px; margin-left:0px;}
+.body1024 .footlogo p span{ width:500px;}
+.body1024 .footer span{ font-size:13px;}
+.body1024 .CoreBusinesslist ul li a.cr_index_more{ left:96px; bottom:12px;}
+.body1024 .commonclass.newsclass span{ margin-right:80px;}
+.body1024 .foot dl dd p span.ywqq{ width:226px;}
+.body1024 .foot dl dd p span.ywdh em{padding: 0px 30px 0px 10px;}
+
+/*内页 成功案例*/
+.body1024 .zonghebannerbox ul li{ height:365px;}
+.body1024 .zonghebannerbox ul{ z-index:99; overflow:hidden; height:365px;}
+.body1024 .anlititle{ width:100%; z-index:99999; position:relative;}
+.body1024 .anliclass{ width:100%;}
+.body1024 .anlilist{ width:990px; overflow:hidden;}
+.body1024 .anlilist ul{ width:1050px;}
+.body1024 .anlilist ul li{width: 310px;margin-right:30px;}
+.body1024 .anlipic{ width:100%;}
+.body1024 .commonnewCase{ width:990px;}
+.body1024 .commonnewCaseleft{ width:185px;}
+.body1024 .commonnewCaseright{ width:770px;}
+.body1024 .commonnews{ width:990px;}
+.body1024 .commonnewCaseright ul li{ width:236px;}
+.body1024 .commonnewCaseright ul li img{ width:100%;}
+.body1024 .commonnewCaseright ul li p{ width:236px; padding:10px 0px; text-indent:10px;}
+.body1024 .commonnewsleft{ width:450px;}
+.body1024 .zonghebannerbox ul{ z-index:99;}
+
+.body1024 .zhiming{ width:990px; overflow:hidden;}
+.body1024 .zhiming dl{ width:1050px;}
+.body1024 .zhimingIntro{ height:283px;}
+.body1024 .zhiming dl dd{ width:310px; margin-right:30px;}
+.body1024 .zhimingIntro{ padding-left:15px; padding-right:15px; width:280px;}
+.body1024 .zhimingIntro ul{ width:275px;}
+.body1024 .zhiming dl dd{ height:600px;}
+.body1024 .zhiming dl dd img{ width:100%;}
+.body1024 .anlipic img{ height:258px; width:310px; margin-left:-155px; margin-top:-129px;}
+.body1024 .anlipic{ height:258px;}
+
+
+
+.body1024 .pingjia{ width:990px; overflow:hidden;}
+.body1024 .pingjia ul li{ height:306px; background: #FFF url(../webimages/sms_cr1.png) no-repeat; width:310px;margin: 90px 30px 0px 0px;}
+.body1024 .pingjia ul li.cur{background: #FFF url(../webimages/sms_cr2.png) no-repeat;}
+
+
+.body1024 .kehu{ width:990px;}
+.body1024 .kehupic{ width:990px;}
+.body1024 .kehupic img{ width:100%;}
+
+.body1024 .newslist{ width:990px;}
+.body1024 .newslist dl dd{ width:760px;}
+
+
+.body1024 .Case_Detailed{ width:990px;}
+.body1024 .Case_Detailed_bigpic img{ width:703px;height: 437px;margin-left:114px;}
+.body1024 .Case_Detailed_bigpic{ width:928px;padding: 31px 0px 0px 0px; margin:0 auto;}
+.body1024 .Case_Detailed_title dl{ width:990px;}
+.body1024 .Case_Detailed_title dl dt{ width:720px;}
+.body1024 .Case_phonebox{ width:990px;}
+.body1024 .weixingongneng ul li{ width:165px;}
+.body1024 .weixinIntroleft{ width:700px;}
+.body1024 .news_Label{ width:990px;}
+.body1024 .news_Page{ width:990px;}
+.body1024 .news_Related{ width:990px;}
+
+.body1024 .pingjia ul{ width:1050px;}
+
+
+
+
+
+/*微信营销*/
+.body1024 .webbox{ width:990px;}
+.body1024 .weixinSolutions{ width:990px; overflow:hidden;}
+.body1024 .weixinSolutions ul li{ width:310px;}
+.body1024 .weixinSolutions ul li img{ width:310px; height:282px;}
+.body1024 .weixinRelated{ width:990px;}
+.body1024 .weixinRelated ul li{ width:302px;}
+.body1024 .weixinRelated ul li img{ width:100%;}
+
+.body1024 .weixinSolutions dl img{ width:100%;}
+
+.body1024 .weixinlistbanner img{ width:100%;}
+.body1024 .weixingongneng dl dd a{ padding: 20px 7px;}
+.body1024 .weixinyoushi dl dd{ width:558px;}
+.body1024 .weixinContent dl{ width:990px;}
+.body1024 .weixinContentTwo{ width:990px;}
+.body1024 .commonfangan{ width:990px; overflow:hidden;}
+.body1024 .commonfangan ul li{ width:325px;}
+.body1024 .commonfangan ul li a{padding: 35px 0px 0px 130px;}
+.body1024 .webbox img.cr_shiyong{ width:100%;}
+
+
+/*电商网站建设*/
+.body1024 .Productstitle{ width:990px;}
+.body1024 .dingzhiclass{ width:990px;}
+.body1024 .customize ul li dl{ width:990px;}
+.body1024 .customize ul li dl.cur dt{ width:530px;}
+.body1024 .customize ul li dl dt{ width:395px;}
+.body1024 .customize ul li.cur1.cur dl.cur dt{width: 453px;}
+.body1024 .customize ul li.cur1.cur dl.cur dd{ width:470px;}
+.body1024 .customize ul li.cur1.cur dl.cur dd img{ width:100%;}
+.body1024 .QA{ width:990px;}
+
+.body1024 .Applicable{ width:990px;}
+.body1024 .Applicable ul{ width:493px;}
+.body1024 .Programdetails{ width:990px;}
+.body1024 .Programdetails dl{ width:493px;}
+.body1024 .Mobilephone{ width:990px;}
+.body1024 .Mobilephone dl dt{ width:440px;}
+.body1024 .dianshangtitel{ width:990px;}
+.body1024 .Mobilephoneintro{ overflow:hidden;}
+.body1024 .Mobilephoneintro ul li{ width:472px;padding: 60px 0px 0px 20px;}
+.body1024 .weixinproblem{ width:990px;}
+.body1024 .weixinlist ul li dl{ width:990px;}
+.body1024 .weixinlist ul li dl dt{ width:430px;}
+.body1024 .weixinlist ul li dl dd { width:550px;}
+.body1024 .weixinlist ul li dl dd img{ width:100%;}
+.body1024 .weixinlist ul li dl.cur dd{ width:550px;}
+.body1024 .weixinlist ul li dl.cur dt{ padding-top:73px;}
+
+
+
+/*解决方案*/
+.body1024 .zonghebanner img{ margin-left:-1069px;}
+.body1024 .downmenu.wid545{ width:560px;}
+.body1024 .jiejuefangan{ width:990px; overflow:hidden;}
+.body1024 .jiejuefangan ul{ width:1100px;}
+.body1024 .jiejuefangan ul li{padding: 0px 70px 30px 0px;}
+.body1024 .commonyoushi dl{ width:990px;}
+.body1024 .commonyoushi dl dd{ width:800px;}
+
+.body1024 .PCMap dl{ margin-right:64px;}
+.body1024 .PCMap{ width:990px; margin-left:-495px;}
+.body1024 .PCMap img{ width:417px;}
+.body1024 .PCMap dl dd{padding: 0px 24px 0px 70px;}
+.body1024 .jiejueClass{ width:990px;}
+.body1024 .jiejuelist{ width:990px;}
+.body1024 .jiejuelist dl dd{ width:715px;}
+.body1024 .jiejuelist dl{padding: 10px 0px 40px;}
+
+/*网站建设*/
+.body1024 .Brandlogo ul li{ width:193px;}
+.body1024 .Brandlogo ul li img{ width:100%;}
+.body1024 .webintro dl dt{ width:510px;}
+.body1024 .webintro dl dd{ width:422px;}
+.body1024 .webintro dl dd img{ width:100%;}
+.body1024 .webserve ul li h5{ font-size:22px;}
+.body1024 .webserve ul li.yuming,.webserve ul li.xitong,.webserve ul li.sheji,.webserve ul li.guihua{ width:240px;}
+.body1024 .webserve ul li.kaifa{width: 536px;}
+.body1024 .webserve ul li.yunying{width: 437px;}
+.body1024 .webserve ul li.kuozhan,.webserve ul li.pinpai,.webserve ul li.tuiguang{ width:321px;}
+.body1024 .cr_pinpai{ width:990px;}
+
+.body1024 .webListed ul li{ width:218px;}
+.body1024 .webListed ul li.xingxiang {background: url(../webimages/index_170.gif) no-repeat right;}
+.body1024 .webListed ul li.xinxi {background: url(../webimages/index_171.gif) no-repeat right;}
+.body1024 .webListed ul li.wenhua {background: url(../webimages/index_172.gif) no-repeat right;}
+.body1024 .webListed ul li.yinqing {background: url(../webimages/index_173.gif) no-repeat right;margin-right: 0px;}
+.body1024 .webListed ul li.yinqing p{ font-size:15px;}
+.body1024 .webListed dl dd.Service{ padding-right:15px;width: 366px;}
+.body1024 .webListed dl dd.Service01{ padding-right:15px;width: 140px;}
+.body1024 .webListed dl dd.Service02{ padding-right:15px;width: 140px;}
+.body1024 .webListed dl dd h3{ font-size:14px;}
+.body1024 .webListed dl dd.Service03{background: url(../webimages/index_177.gif) no-repeat 158px bottom #FFF;padding-left: 15px;width: 124px;}
+.body1024 .webListed dl dd.Service04{background: url(../webimages/index_178.gif) no-repeat 189px bottom #FFF;width: 179px;padding-left: 15px;}
+.body1024 .webListed dl dd.Service05 {background: url(../webimages/index_179.gif) no-repeat 175px bottom #FFF;width: 145px;padding-left: 15px;padding-left: 15px;}
+.body1024 .webListed dl dd.Service06 {background: url(../webimages/index_180.gif) no-repeat 145px bottom #FFF;width: 116px;}
+
+.body1024 .webListed.cr_dianshangtwo dl dd.Service04{background: url(../webimages/index_178.gif) no-repeat right bottom #FFF;width: 575px;}
+
+
+.body1024 .webListed dl dd.Service02{ padding-right:15px;}
+.body1024 .webListed.cr_menhutwo dl dd.Service01{width: 190px;padding-right: 10px;}
+.body1024 .webListed.cr_menhutwo dl dd.Service02 {width: 111px; padding-right:0px;}
+.body1024 .webListed.cr_menhutwo dl dd.Service03{ padding-right:8px;width: 125px;}
+.body1024 .webListed.cr_menhutwo dl dd.Service04{width: 133px;margin-right: 0px;}
+.body1024 .webListed.cr_menhutwo dl dd.Service05{ width:270px;}
+.body1024 .webListed.cr_menhutwo dl dd.Service06{width: 598px;background: url(../webimages/index_179.gif) no-repeat right bottom #FFF;}
+.body1024 .webListed.cr_menhutwo dl dd.Service06 p{ margin-bottom:0px;}
+
+
+.body1024 .webListed dl dd.Service.zml_daili{width: 205px;}
+.body1024 .webListed dl dd.Service01.zml_daili01{width: 205px;}
+.body1024 .webListed dl dd.Service02.zml_daili01{margin-right: 0px;width: 235px;}
+.body1024 .webListed dl dd.Service03.zml_daili02{width: 325px;padding-right: 75px;background: url(../webimages/index_177.gif) no-repeat right bottom #FFF;}
+.body1024 .webListed dl dd.Service04.zml_daili03{width: 476px;margin-right: 0px;padding-right: 75px;background: url(../webimages/index_178.gif) no-repeat right bottom #FFF;}
+
+
+/*我们的实力*/
+.body1024 .about{ width:990px;}
+.body1024 .about dl dt{ width:478px;}
+.body1024 .about dl dt h3{font-size: 37px;}
+.body1024 .about dl dt h3 span{ font-size:65px;}
+.body1024 .about dl dt h4{ font-size:31px;}
+.body1024 .about dl dd{ width:490px;}
+.body1024 .about02 { width:990px;}
+.body1024 .about02_left{ width:685px;}
+.body1024 .about02_left ul li{ width:160px;}
+.body1024 .about03 dl{ width:990px;}
+.body1024 .about05 ul{ width:990px;}
+.body1024 .about05 ul li{ width:150px; margin-right:14px;}
+.body1024 .about05 ul li img{ width:100%;}
+
+.body1024 .Strength{ width:990px;}
+.body1024 .Strength dl{ width:990px;}
+.body1024 .Distinctive{ width:990px;}
+.body1024 .DistinctiveTwo{ width:990px; overflow:hidden;}
+.body1024 .Distinctive dl dt{ width:601px;}
+.body1024 .Distinctive dl.cur dt{ width:550px;}
+.body1024 .Distinctive dl dt.w480{ width:342px;padding-top: 60px;}
+.body1024 .DistinctiveTwo ul li{ width:150px; margin-right:15px;}
+.body1024 .Idea{ width:990px; overflow:hidden;}
+.body1024 .Idea dl dt{ width:634px;}
+.body1024 .Idea dl dt h3{ font-size:27px;}
+.body1024 .Idea dl dd{ width:300px;}
+.body1024 .Idea dl dd img{ width:100%;}
+.body1024 .Idea dl.cur dd{ width:300px;}
+.body1024 .Idea dl.cur dd img{ width:100%;}
+.body1024 .Idea ul{ width:990px;}
+.body1024 .Idea ul li{ width:150px;margin-right: 15px;}
+.body1024 .jobs dl.jobsIntro dd{width: 450px;}
+.body1024 .jobs dl.jobsIntro dt{width: 500px;}
+.body1024 .jobs dl.jobsIntro dd img{ width:100%;}
+.body1024 .jobslistbox{padding: 0px 0px 40px;}
+.body1024 .jobslistbox dl{ padding-left:30px; margin-bottom:30px;}
+.body1024 .jobslistbox p.jobfont14{ margin-left:30px; margin-bottom:40px;}
+.body1024 .jobslistbox p{ padding:0px;}
+
+/*营销推广*/
+.body1024 .WhatSpread{ width:990px;}
+.body1024 .CloudSearch dl{ width:990px;}
+
+/*联系我们*/
+.body1024 .Contact{ width:990px;}
+.body1024 .Contact ul li{ width:222px;}
+.body1024 .Contact ul li a{ width:100%;}
+.body1024 .Contact dl{ width:991px;}
+.body1024 .Contact dl dd{ font-size:17px;}
+.body1024 .Contact dl dd.business{ width:242px;}
+.body1024 .Contact dl dd.Customer{ width:335px;}
+.body1024 .ContactRide{ width:990px;}
+.body1024 .ContactRide dl dd{ width:914px;}
+.body1024 .ContactFormbox{ width:990px;margin-left: -495px;}
+.body1024 .book{ width:990px;}
+.body1024 .book ul li label.nichen{ width:280px;}
+.body1024 .book ul li label.cont{ width:745px;}
+
+.body1024 .book ul li{ min-height:35px;}
+.body1024 .book ul li span{ height:30px; line-height:30px;}
+.body1024 .book ul li label{ padding:5px 10px;}
+.body1024 .book dl input{ height:35px; width:100px;}
+
+/*搜索*/
+.body1024 .Searchbox{ right:0px; top:52px;}
+.body1024 .Search{ width:990px;}
+.body1024 .Search dl dd.Searchtext{ width:600px;}
+.body1024 .SearchClass{ width:990px;}
+.body1024 .downmenu.widbai{ overflow:hidden;}
+
+
+
+
+
+/*************************1250分辨率************************************/
+/*首页*/
+
+
+
+
+
+

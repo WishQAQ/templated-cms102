@@ -1,0 +1,1 @@
+<a href="[field:typelink /]" class="weixin  cur"><span></span>[field:typename /]<br> 解决方案</a>

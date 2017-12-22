@@ -1,0 +1,98 @@
+<div class="commonnews">
+  <div class="commonnewsleft">
+    <h3>最新<span>签约动态</span><em><img src="/images/index_64.png"></em></h3>
+    <ul>
+      {dede:arclist row="7" typeid="25" titlelen="80" orderby="pubdate"}
+      <li><a href="[field:arcurl /]" title="[field:title /]">[签约]  [field:title /] ------------------------  [[field:pubdate function="MyDate('Y-m-d',@me)"/]]</a></li>
+      {/dede:arclist}
+    </ul>
+  </div>
+  <div class="commonnewsright">
+    <dl>
+      <dt> {dede:channelartlist row='4' type='top' typeid='1,5,10,15' col='1'} <a href="{dede:field name='typeurl'/}">{dede:field
+          name='typename'/}</a> {/dede:channelartlist} </dt>
+      <dd> {dede:channelartlist row='4' typeid='20,21,22' col='1'} <a href="{dede:field name='typeurl'/}">{dede:field
+          name='typename'/}</a> {/dede:channelartlist} </dd>
+      <div class="del_float"></div>
+    </dl>
+    <ul>
+      <li class="ComTel"><a href="/a/lianxi/">联系我们</a></li>
+      <li class="ComAdvisory"><a href="http://wpa.qq.com/msgrd?v=3&uin=12345678&site=qq&menu=yes" target="_blank">在线咨询</a></li>
+      <li class="Comgoob"><a href="/a/liuyan/">在线留言</a></li>
+      <li class="ComOrder"><a href="#webpop" class="webContact">提交订单</a></li>
+      <div class="del_float"></div>
+    </ul>
+    <div class="del_float"></div>
+  </div>
+  <div class="del_float"></div>
+</div>
+{dede:include filename="footer.htm"/}
+<div class="webPopup"></div>
+<form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+<input type="hidden" name="action" value="post" />
+<input type="hidden" name="diyid" value="1" />
+<input type="hidden" name="do" value="2" />
+<div class="webPopupForm"> <a name="webpop"></a>
+  <h3><em class="close"></em><span>合作</span>意向表</h3>
+  <ul>
+    <li><span>公司名称</span>
+      <label class="mingchen">
+      <input type="text" name="i-company" class="i-company search_color" value="" id="company">
+      </label>
+    </li>
+    <li><span>姓名</span>
+      <label class="xingming">
+      <input type="text" name="i-name" class="i-name search_color" value="" id="username">
+      </label>
+      <span class="w45">电话</span>
+      <label class="dianhua">
+      <input type="text" name="i-phone" class="i-phone search_color" value="" id="usertel">
+      </label>
+    </li>
+  </ul>
+  <h4>您需要的服务</h4>
+  <dl class="clearfix">
+    <dd>
+      <input type="checkbox" name="xyfw[]" class="showclassinfo" value="现有网站改版">
+      <span>现有网站改版</span></dd>
+    <dd class="w220">
+      <input type="checkbox" name="xyfw[]" class="showclassinfo" value="我需要做微信营销">
+      <span>我需要做微信营销</span></dd>
+    <dd>
+      <input type="checkbox" name="xyfw[]" class="showclassinfo" value="建设全新的企业网站">
+      <span>建设全新的企业网站</span></dd>
+    <dd class="w220">
+      <input type="checkbox" name="xyfw[]" class="showclassinfo" value="要找长期合作公司，需要年度服务">
+      <span>要找长期合作公司，需要年度服务</span></dd>
+  </dl>
+  <h4>您最关注的地方</h4>
+  <dl class="clearfix">
+    <dd>
+      <input type="checkbox" name="gzdf[]" class="shownewsinfo" value="对功能要求比较高 ">
+      <span>对功能要求比较高</span></dd>
+    <dd>
+      <input type="checkbox" name="gzdf[]" class="shownewsinfo" value="对设计创意要求比较高">
+      <span>对设计创意要求比较高</span></dd>
+    <dd>
+      <input type="checkbox" name="gzdf[]" class="shownewsinfo" value="需要可以购物支付">
+      <span>需要可以购物支付</span></dd>
+    <dd>
+      <input type="checkbox" name="gzdf[]" class="shownewsinfo" value="搜索引擎排名">
+      <span>搜索引擎排名</span></dd>
+  </dl>
+  <h4>预算</h4>
+  <dl>
+    <input type="radio" name="cbys[]" value="3-5万" class="checkbox">
+    <em>3-5万</em>
+    <input type="radio" name="cbys[]" value="5-8万" class="checkbox">
+    <em>5-8万</em>
+    <input type="radio" name="cbys[]" value="8-10万" class="checkbox">
+    <em>8-10万</em>
+    <input type="radio" name="cbys[]" value="10万以上需招投标" class="checkbox">
+    <em>10万以上需招投标</em>
+  </dl>
+  <p>
+    <input type="submit" name="submit" class="tab-btn" value="提交需求">
+  </p>
+</div>
+</form>

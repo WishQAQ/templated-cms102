@@ -1,0 +1,522 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="Keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="Description" content="{dede:global.cfg_description/}" />
+<link href="css/global.css" rel="stylesheet" type="text/css">
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<!--[if IE 6]>
+<script src="js/iepng.js" type="text/javascript"></script>
+<script type="text/javascript">
+   EvPNG.fix('div,ul,li,img,dl,dt,dd,span,p,input,textarea,h1,h2,h3,h4,h5,h6,em,i,ol,a,label,a.cur,a:hover'); 
+</script>
+<![endif]-->
+<!--[if IE 7]>
+<link href="css/sevenlayout.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<!--[if IE 8]>
+<link href="css/sevenlayout.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<!--[if IE 8]>
+<link href="css/sevenlayout.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<!--[if IE 7]>
+<link href="css/sevenlayout.css" rel="stylesheet" type="text/css">
+<![endif]-->
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="bannerbox">
+  <div class="banner">
+    <ul>
+      <li  style='display:block' ><img  src='images/banner/1.jpg'   alt="banner_01" rel="images/banner/1.jpg" width="1900" height="600"></li>
+      <li  style='display:none' ><img  src='images/banner/2.jpg'   alt="banner_02" rel="images/banner/2.jpg" width="1900" height="600"></li>
+      <li  style='display:none' ><img  src='images/banner/3.jpg'   alt="banner_03" rel="images/banner/3.jpg" width="1900" height="600"></li>
+    </ul>
+    <div class="bannerdot"> <a href="javascript:;" class="">1</a><a href="javascript:;" class="">1</a><a href="javascript:;" class="">1</a></div>
+  </div>
+  
+  <div class="index_btn">
+    <ul>
+      <li><span><a href="/a/case/"><em class="btn">成功案例</em></a></span>
+        <div class="index_btnbox index_btnanli" style="top: 0px;"> <img src="webimages/menu_pic1.jpg" alt="成功案例" width="258" height="112">
+          <p class="clearfix"> 
+		  {dede:channel row="10" type="son" typeid="1" col="1"}
+		  <a href="[field:typeurl/]">[field:typename/]</a>
+		  {/dede:channel} 
+		  </p>
+        </div>
+      </li>
+      <li><span><a href="/a/weixin/"><em class="btn1">微信营销</em></a></span>
+        <div class="index_btnbox"> <img src="webimages/menu_pic2.jpg" alt="微信营销" width="258" height="112">
+          <p class="clearfix"> 
+		  {dede:channel row="10" type="son" typeid="5" col="1"}
+		  <a href="[field:typeurl/]">[field:typename/]</a>
+		  {/dede:channel}
+		  </p>
+        </div>
+      </li>
+      <li><span><a href="/a/dsweb/"><em class="btn2">网站建设</em></a></span>
+        <div class="index_btnbox"> <img src="webimages/menu_pic3.jpg" alt="网站建设" width="258" height="112">
+          <p class="clearfix"> 
+		  {dede:channel row="10" type="son" typeid="10" col="1"}
+		  <a href="[field:typeurl/]">[field:typename/]</a>
+		  {/dede:channel}
+		  </p>
+        </div>
+      </li>
+      <li><span><a href="about.html" class="cur"><em class="btn3">我们的实力</em></a></span>
+        <div class="index_btnbox"> <img src="webimages/menu_pic4.jpg" alt="我们的实力" width="258" height="112">
+          <p class="clearfix"> 
+		   {dede:channel row="10" type="son" typeid="15" col="1"}
+		  <a href="[field:typeurl/]">[field:typename/]</a>
+		  {/dede:channel}
+		  </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="CoreBusiness">
+  <div class="CoreBusinesstitle">
+    <h3><a href="/a/dsweb/">主要业务</a></h3>
+    <p><span></span></p>
+    <em>Core Business</em> </div>
+  <div class="CoreBusinesslist">
+    <ul>
+      {dede:type typeid='11'}
+	  <li class="Core"> <img src="webimages/index_325.jpg" alt="[field:typename /]" width="293" height="250">
+        <h3><a href="[field:typelink /]">[field:typename /]</a></h3>
+        <div class="CoreBusinessbox">
+          <h4><a href="[field:typelink /]"></a></h4>
+		  <p><a href="[field:typelink /]">我们强大的设计实力支撑，帮助客户跳出千篇一律的传统商城模板式网站，提升超强用户体验的感官设计，更加有利于产品及品牌展示，从而提升消费者的整个购物体验！</a></p>
+          <a class="cr_index_more" href="[field:typelink /]"></a> </div>
+      </li>
+	  {/dede:type}
+	  
+      {dede:type typeid='12'}
+	  <li class="cur">
+        <h4><a href="[field:typelink /]">[field:typename /]</a></h4>
+        <p><a href="[field:typelink /]"> 专注B2C零售销售者购物体验 </a></p>
+        <p><a href="[field:typelink /]"> 全面管理，快速搭建在线商城 </a></p>
+        <p><a href="[field:typelink /]"> 良好的二次开发和部署框架 </a></p>
+        <p><a href="[field:typelink /]"> 企业级的高安全性和可靠性 </a></p>
+      <a class="cr_index_more" href="[field:typelink /]"></a> 
+	  </li>
+	 {/dede:type}	
+		
+	  {dede:type typeid='13'}
+      <li class="Core"> <img src="webimages/index_326.jpg" alt="[field:typename /]" width="293" height="250">
+        <h3><a href="[field:typelink /]">[field:typename /]</a></h3>
+        <div class="CoreBusinessbox">
+          <h4><a href="[field:typelink /]"></a></h4>
+		  <p><a href="[field:typelink /]">随着移动设备的普及，通过移动设备进行浏览，购物，查询的消费者越来越多。移动设备具有随时随地的进行交互的便利性，结合硬件的GPS定位能力，能够更好的提供精确服务。</a></p>
+        <a class="cr_index_more" href="[field:typelink /]"></a> </div>
+      </li>
+	  {/dede:type}	
+	  
+	  {dede:type typeid='14'}
+      <li>
+        <h4><a href="[field:typelink /]">[field:typename /]</a></h4>
+		<p><a href="[field:typelink /]">依托自营在线商城的会员机制，提供以微信交互为特征的会员自服务、在线交易和线下门店互动引流，实现对客户资产的持续运营。</a></p>
+      <a class="cr_index_more" href="[field:typelink /]"></a> </li>
+	  {/dede:type}
+	  
+	  <!--待上线-->
+	  <li>
+              	<h4><a href="javascript:;">网站推广</a></h4>
+                <p><a href="javascript:;">提供专业网站推广服务，通过百度，搜狗等国内前线的第三方引警合作为您带来有效真实的网站流量</a></p>
+      <a class="cr_index_more" href="javascript:;"></a> 
+             </li>
+             <li class="cur Core">
+             	<img src="webimages/index_327.jpg" alt="网站优化" width="293" height="250">
+              	<h3><a href="javascript:;">网站优化</a></h3>
+                <div class="CoreBusinessbox">
+                <h4><a href="javascript:;"></a></h4>
+                <p>
+                <a href="javascript:;">专注网站建设11年积累的网站优化经验，帮你快速优化网站，提高网站效率，为你带来巨大效益</a>
+				</p>
+                <a class="cr_index_more" href="javascript:;"></a>
+                </div>
+             </li>
+             <li>
+              	<h4><a href="javascript:;">网络营销</a></h4>
+                <p>
+                <a href="javascript:;">专注网站建设11年积累的网站服务经验，帮你快速定位，提高网站订单效率，为你带来巨大效益</a>
+				</p>
+                <a class="cr_index_more" href="javascript:;"></a>
+             </li>
+             <li class="Core">
+             	<img src="webimages/index_328.jpg" alt="主机代理" width="293" height="250">
+              	<h3><a href="javascript:;">主机代理</a></h3>
+                <div class="CoreBusinessbox">
+                <h4><a href="javascript:;"></a></h4>
+                <p>
+                <a href="javascript:;">我们是跟有名的万网，阿里云，西部数据等主机空间商合作的超级代理，提供最好最便宜的虚拟主机服务。</a>
+				</a>
+                </div>
+             </li>
+			 <!--待上线结束-->
+	  
+	  
+      <div class="del_float"></div>
+    </ul>
+    <a href="javascript:;" class="index_click"></a> </div>
+</div>
+<div class="zhongbiao">
+  <div class="zhongbiaotitle">
+    <h3><a href="/a/qianyuedongtai/">签约动态</a></h3>
+    <p><span></span></p>
+    <em>News</em> </div>
+  <div class="zhongbiaomore"> <a href="javascript:;" class="ZbPrev">&nbsp;</a><a href="javascript:;" class="Zbnext">&nbsp;</a><a href="/a/qianyuedongtai/" class="Zbmore">更多+</a> </div>
+  <div class="zhongbiaolist">
+    <ul>
+      <li class="clearfix">
+        {dede:arclist row="4" typeid="25" titlelen="20" infolen="300" limit="1,4" orderby="pubdate"}
+		<div class="zhongbiaoli">
+          <dl>
+            <dt><a href="[field:arcurl/]" title="[field:title /]"><img src="[field:picname/]" alt="[field:title /]" width="348" height="258"></a></dt>
+            <dd>
+              <h3><a href="[field:arcurl/]" title="[field:title /]">[field:title /]</a></h3>
+              <p><a href="[field:arcurl/]">[field:infos/]…</a></p>
+            </dd>
+          </dl>
+        </div>
+		{/dede:arclist}
+      </li>
+	  <li class="clearfix">
+        {dede:arclist row="4" typeid="25" titlelen="20" infolen="300" limit="5,4" orderby="pubdate"}
+		<div class="zhongbiaoli">
+          <dl>
+            <dt><a href="[field:arcurl/]" title="[field:title /]"><img src="[field:picname/]" alt="[field:title /]" width="348" height="258"></a></dt>
+            <dd>
+              <h3><a href="[field:arcurl/]" title="[field:title /]">[field:title /]</a></h3>
+              <p><a href="[field:arcurl/]">[field:infos/]…</a></p>
+            </dd>
+          </dl>
+        </div>
+		{/dede:arclist}
+      </li>
+      
+    </ul>
+    <a href="javascript:;" class="index_click"></a> </div>
+</div>
+<div class="Case">
+  <div class="Casetitle">
+    <h3><a href="/a/case/">客户案例</a></h3>
+    <p><span></span></p>
+    <em>Customer Case</em> </div>
+  <div class="commonclass caseclass"> <span><a href="/a/case/" class="cur">成功案例</a><a href="news/smarta/index.html">最新上线</a></span>
+    <div class="Casemore" style="display:block">
+      <a href="/a/case/" class="Casemorelink">更多+</a> </div>
+    <div class="Casemore">
+      <a href="/a/case/" class="Casemorelink">更多+</a> </div>
+  </div>
+  <div class="Casebox Brandbox" style="display:block">
+    <div class="Caselist BrandCase">
+      <ul>
+        <li>
+          {dede:arclist row="6" typeid="1" titlelen="20" infolen="300" orderby="pubdate" orderway="asc"}
+		  <div class="Caselistli"><a href="[field:arcurl/]"><img src="[field:picname/]" alt="[field:title /]" width="100%" height="100%">
+            <p>[field:infos/]...</p>
+            <h3>[field:title /]</h3>
+            </a></div>
+		 {/dede:arclist}	
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="Casebox newbox">
+    <div class="Caselist newCase">
+      <ul>
+        <li>
+          {dede:arclist row="6" typeid="1" titlelen="20" infolen="300" orderby="pubdate" orderway="desc"}
+		  <div class="Caselistli"><a href="[field:arcurl/]"><img src="[field:picname/]" alt="[field:title /]" width="100%" height="100%">
+            <p>[field:infos/]...</p>
+            <h3>[field:title /]</h3>
+            </a></div>
+		 {/dede:arclist}	
+        </li>
+      </ul>
+    </div>
+  </div>
+  <a href="javascript:;" class="index_click"></a> </div>
+<div class="specialefficacy">
+  <ul class="clearfix">
+    <li>
+      <p class="Line" rel="12">12</p>
+      <span>12年互联网品牌建设与传播经验</span></li>
+    <li>
+      <p class="Line" rel="56">56</p>
+      <span>500强企业我们已经服务56家</span></li>
+    <li>
+      <p class="Line" rel="72">72</p>
+      <span>客户中72个品牌为行业领袖</span></li>
+    <li class="cur">
+      <p class="Line" rel="12000">12 000</p>
+      <span>服务品牌总市值超过12,000亿</span></li>
+  </ul>
+</div>
+<div class="fanganpingjia">
+  <div class="zhongbiaotitle">
+    <h3><a href="/a/about/pingjia">客户评价</a></h3>
+    <p><span></span></p>
+    <em>News</em> </div>
+  <div class="zhongbiaomore"> <a href="javascript:;" class="ZbPrev">&nbsp;</a><a href="javascript:;" class="Zbnext">&nbsp;</a><a href="//a/about/pingjia" class="Zbmore">更多+</a> </div>
+  <div class="fanganbox jiejuebox">
+    <div class="fanganpingjialist indexjiejue">
+      <ul>
+        <li>
+          <div class="fanganlist">
+            <dl class="clearfix">
+              {dede:arclist row="4" typeid="28" titlelen="20" limit="1,4" orderby="pubdate" infolen="300"}
+			  <dd><a href="javascript:;"><span><img src="[field:picname/]" alt="[field:title /]" /></span>
+                <h3>[field:title /]</h3>
+                <p>[field:infos/]…</p>
+                </a></dd>
+			{/dede:arclist}
+            </dl>
+          </div>
+        </li>
+        <li>
+          <div class="fanganlist">
+            <dl class="clearfix">
+              {dede:arclist row="4" typeid="28" titlelen="20" limit="5,4" orderby="pubdate" infolen="300"}
+			  <dd><a href="javascript:;"><span><img src="[field:picname/]" alt="[field:title /]" /></span>
+                <h3>[field:title /]</h3>
+                <p>[field:infos/]…</p>
+                </a></dd>
+			{/dede:arclist}
+            </dl>
+          </div>
+        </li> 
+      </ul>
+    </div>
+  </div>
+  <div class="fanganbox pingjiabox">
+    <div class="fanganpingjialist indexpingjia">
+      <ul>
+        <li>
+          <div class="pingjialist">
+            <dl class="clearfix">
+			  {dede:arclist row="8" typeid="28" titlelen="20" limit="5,4" orderby="pubdate" infolen="300"}
+			  <dd><img src="[field:picname/]" alt="[field:title /]" width="271" height="125">
+                <h3>[field:title /]</h3>
+                <p>[field:infos/]…</p>
+              </dd>
+			  {/dede:arclist}
+            </dl>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="Client">
+  <h3><em><a href="javascript:;" class="ClientPrev">&nbsp;</a><a href="javascript:;" class="Clientnext">&nbsp;</a><a href="k/a/about/kehu" class="Clientlink">更多+</a></em>我们的客户<span></span></h3>
+</div>
+<div class="Clientbox">
+  <div class="Clientlist">
+    <ul>
+      <li>
+        <dl>
+          {dede:arclist row="5" typeid="29" titlelen="20" limit="1,5" orderby="pubdate" infolen="300"}
+		  <dd> <a href="javascript:;" target="_blank"><img title="[field:title /]" alt="[field:title /]" src="[field:picname/]" /> </a> </dd>
+		  {/dede:arclist}
+        </dl>
+      </li>
+      <li>
+        <dl>
+          {dede:arclist row="5" typeid="29" titlelen="20" limit="6,5" orderby="pubdate" infolen="300"}
+		  <dd> <a href="javascript:;" target="_blank"><img title="[field:title /]" alt="[field:title /]" src="[field:picname/]" /> </a> </dd>
+		  {/dede:arclist}
+        </dl>
+      </li>
+    </ul>
+  </div>
+  <a href="javascript:;" class="index_click"></a> </div>
+<div class="news">
+  <div class="fanganpingjiatitle">
+    <h3><a href="/a/news/">新闻动态</a></h3>
+    <p><span></span></p>
+    <em>Information</em> </div>
+  <div class="commonclass newsclass"> <span><a href="/a/news/" class="cur">行业新闻</a><a href="/a/gongsixinwen/">公司新闻</a><a href="/a/qianyuedongtai/">签约动态</a></span>
+    <div class="newsmore"> <a href="javascript:;" class="newsPrev guandianleft">&nbsp;</a><a href="javascript:;" class="newsnext guandianright">&nbsp;</a><a href="/a/news/" class="newslink">更多+</a> </div>
+    <div class="newsmore"> <a href="/a/gongsixinwen/" class="newsPrev zhishileft">&nbsp;</a><a href="javascript:;" class="newsnext zhishiright">&nbsp;</a><a href="/a/gongsixinwen/" class="newslink">更多+</a> </div>
+    <div class="newsmore"> <a href="/a/qianyuedongtai/" class="newsPrev tuiguangleft">&nbsp;</a><a href="javascript:;" class="newsnext tuiguangright">&nbsp;</a><a href="/a/qianyuedongtai/" class="newslink">更多+</a> </div>
+  </div>
+  <div class="newsbox guandianbox">
+    <div class="newslistbox guandian">
+      <ul>
+        <li class="clearfix">
+          <div class="newslis">
+            {dede:arclist row="6" typeid="23" titlelen="20" limit="1,6"  orderby="pubdate" infolen="300"}
+			<dl class="clearfix">
+              <dt><span>[field:pubdate function="MyDate('d',@me)"/]</span>[field:pubdate function="MyDate('Y-m',@me)"/]</dt>
+              <dd>
+                <h3><a href="[field:arcurl /]" title="[field:title /]">[field:title /]</a></h3>
+                <p>[field:infos/]…</p>
+              </dd>
+            </dl>
+			{/dede:arclist}
+          </div>
+        </li>
+        <li class="clearfix">
+          <div class="newslis">
+            {dede:arclist row="6" typeid="23" titlelen="20" limit="7,6"  orderby="pubdate" infolen="300"}
+			<dl class="clearfix">
+              <dt><span>[field:pubdate function="MyDate('d',@me)"/]</span>[field:pubdate function="MyDate('Y-m',@me)"/]</dt>
+              <dd>
+                <h3><a href="[field:arcurl /]" title="[field:title /]">[field:title /]</a></h3>
+                <p>[field:infos/]…</p>
+              </dd>
+            </dl>
+			{/dede:arclist}
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="newsbox zhishibox">
+    <div class="newslistbox zhishi">
+      <ul>
+        <li class="clearfix">
+          <div class="newslis">
+            {dede:arclist row="6" typeid="24" titlelen="20" limit="1,6"  orderby="pubdate" infolen="300"}
+			<dl class="clearfix">
+              <dt><span>[field:pubdate function="MyDate('d',@me)"/]</span>[field:pubdate function="MyDate('Y-m',@me)"/]</dt>
+              <dd>
+                <h3><a href="[field:arcurl /]" title="[field:title /]">[field:title /]</a></h3>
+                <p>[field:infos/]…</p>
+              </dd>
+            </dl>
+			{/dede:arclist}
+          </div>
+        </li>
+        <li class="clearfix">
+          <div class="newslis">
+            {dede:arclist row="6" typeid="24" titlelen="20" limit="7,6"  orderby="pubdate" infolen="300"}
+			<dl class="clearfix">
+              <dt><span>[field:pubdate function="MyDate('d',@me)"/]</span>[field:pubdate function="MyDate('Y-m',@me)"/]</dt>
+              <dd>
+                <h3><a href="[field:arcurl /]" title="[field:title /]">[field:title /]</a></h3>
+                <p>[field:infos/]…</p>
+              </dd>
+            </dl>
+			{/dede:arclist}
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="newsbox tuiguangbox">
+    <div class="newslistbox indextuiguang">
+      <ul>
+        <li class="clearfix">
+          <div class="newslis">
+            {dede:arclist row="6" typeid="25" titlelen="20" limit="1,6"  orderby="pubdate" infolen="300"}
+			<dl class="clearfix">
+              <dt><span>[field:pubdate function="MyDate('d',@me)"/]</span>[field:pubdate function="MyDate('Y-m',@me)"/]</dt>
+              <dd>
+                <h3><a href="[field:arcurl /]" title="[field:title /]">[field:title /]</a></h3>
+                <p>[field:infos/]…</p>
+              </dd>
+            </dl>
+			{/dede:arclist}
+          </div>
+        </li>
+        <li class="clearfix">
+          <div class="newslis">
+            {dede:arclist row="6" typeid="25" titlelen="20" limit="7,6"  orderby="pubdate" infolen="300"}
+			<dl class="clearfix">
+              <dt><span>[field:pubdate function="MyDate('d',@me)"/]</span>[field:pubdate function="MyDate('Y-m',@me)"/]</dt>
+              <dd>
+                <h3><a href="[field:arcurl /]" title="[field:title /]">[field:title /]</a></h3>
+                <p>[field:infos/]…</p>
+              </dd>
+            </dl>
+			{/dede:arclist}
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+{dede:include filename="footer.htm"/}
+
+
+<!--右边悬浮-->
+<input id="txt1" type="text" style="position:fixed; top:20px; display:none;" />
+<div id="div1" class="index_xuanfu"> <a href="/a/womenshili/"><img src="webimages/ssf_img5.jpg" alt="实力" width="21" height="20"><span>实力</span></a> <a href="/a/case/"><img src="webimages/ssf_img6.jpg" alt="案例" width="21" height="18"><span>案例</span></a> <a href="/a/news/"><img src="webimages/ssf_img7.jpg" alt="新闻" width="21" height="18"><span>新闻</span></a> <a target="_blank" href="/a/dsweb/"><img src="webimages/ssf_img8.jpg" alt="业务"  width="21" height="19"><span>业务</span></a> <a class="index_lefttijiao" href="/a/lianxi/"><img src="webimages/ssf_img9.png" alt="提交需求" width="19" height="19"><span>提交需求</span></a> <a href="http://wpa.qq.com/msgrd?v=3&uin=123456789&site=qq&menu=yes" target="_blank"><img src="webimages/ssf_img10.jpg" alt="客服" width="19" height="18"><span>客服</span></a> <a href="/a/liuyan/"><img src="webimages/ssf_img11.jpg" alt="留言" width="21" height="18"><span>留言</span></a> <a class="return_top" href="javascript:;"><img src="webimages/ssf_img12.jpg" alt="Top" width="23" height="29"></a> </div>
+</body>
+<script type="text/javascript" src="webjs/MYscroll.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".Caselistli img").remove("height")
+	});
+    $(".nav li:eq(0)").addClass("cur")
+    $(".zhongbiao").myscroll({
+        prev: ".ZbPrev",
+        next: ".Zbnext",
+        scrollbox: ".zhongbiaolist"
+    });
+    $(".guandianbox").myscroll({
+        prev: ".guandianleft",
+        next: ".guandianright",
+        scrollbox: ".guandian"
+    });
+    $(".zhishibox").myscroll({
+        prev: ".zhishileft",
+        next: ".zhishiright",
+        scrollbox: ".zhishi"
+    });
+    $(".tuiguangbox").myscroll({
+        prev: ".tuiguangleft",
+        next: ".tuiguangright",
+        scrollbox: ".indextuiguang"
+    });
+    $(".tuiguangbox1").myscroll({
+        prev: ".tuiguang1left",
+        next: ".tuiguang1right",
+        scrollbox: ".indextuiguang1"
+    });
+
+    $(".newbox").myscroll({
+        prev: ".newleft",
+        next: ".newright",
+        scrollbox: ".newCase"
+    });
+    $(".Brandbox").myscroll({
+        prev: ".Brandleft",
+        next: ".Brandright",
+        scrollbox: ".BrandCase"
+    });
+    $(".BTCbox").myscroll({
+        prev: ".BTCleft",
+        next: ".BTCright",
+        scrollbox: ".BTCCase"
+    });
+
+    $(".jiejuebox").myscroll({
+        prev: ".jiejueleft",
+        next: ".jiejuerighr",
+        scrollbox: ".indexjiejue"
+    });
+    $(".pingjiabox").myscroll({
+        prev: ".pingjialeft",
+        next: ".pingjiaright",
+        scrollbox: ".indexpingjia"
+    });
+    $(".Clientbox").myscroll({
+        prev: ".ClientPrev",
+        next: ".Clientnext",
+        scrollbox: ".Clientlist"
+    });
+</script>
+<script type="text/javascript" src="js/dianji.js"></script>
+<script type="text/javascript" src="js/indextime.js"></script>
+</html>

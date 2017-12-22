@@ -1,0 +1,1 @@
+<li><a href="[field:arcurl /]" title="[field:title /]">[签约][field:title /][[field:pubdate function="MyDate('Y-m-d',@me)"/]]</a></li>
